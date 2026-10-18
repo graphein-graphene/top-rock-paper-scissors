@@ -1,0 +1,16 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.play {
+    margin: 20px;
+}
+
+.resultText {
+    font-size: 30px;
+}

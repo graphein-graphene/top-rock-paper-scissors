@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Play "rock, paper, scissors" in the Console!</h1>
+    <h1>Play "rock, paper, scissors!"</h1>
+    <button class="play" aria-label="Click to play. First to 5 wins!">
+        Play - first to 5 wins!
+    </button>
+    <div class="buttonGroup" role="group" aria-label="Choose your move: Rock, Paper, or Scissors!"></div>
+    <div class="resultDisplay"></div>
 </body>
 </html>
